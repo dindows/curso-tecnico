@@ -1,2 +1,11 @@
-for i in range(3,8):
-    print(i)
+salario=float(input("Digite seu salario"))
+
+if salario>=3000:
+    bonus=salario*0.10
+elif salario>=2000:
+    bonus=salario*0.05
+else:
+    bonus=salario*0.02
+    
+salario_final=salario+bonus
+print("salario final", salario_final)
